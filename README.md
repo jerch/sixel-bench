@@ -4,7 +4,7 @@
 To run the benchmark, unzip the data files and execute the python script:
 
 ```bash
-cat part_* > blobs.tar.gz
+cat parts_* > blobs.tar.gz
 tar -zxf blobs.tar.gz
 python run.py data/data.sixel
 python run.py data/data.iip.qoi
